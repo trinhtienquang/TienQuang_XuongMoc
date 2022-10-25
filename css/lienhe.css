@@ -1,0 +1,138 @@
+body{
+    background-color: rgb(248, 239, 239);
+}
+
+#menu{
+    background-color: white;
+}
+
+.menu-nav {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+#menu .sub-nav .a::before {
+    position: absolute;
+    content: '';
+    width: 60px;
+    height: 2px;
+    top: 90%;
+    left: 10%;
+    border-bottom: 0.3rem solid #bd945f;
+    transition: 0.3s ease;
+}
+#menu .sub-nav li{
+    margin-right: 54px;
+    font-family: Gotham-Medium;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+/* banner */
+#banner {
+    position: relative;
+    background: url(../img/Lienhe/banner.png) center / cover no-repeat;
+}
+#banner .content {
+    position: relative;
+    margin-left:50%;
+}
+#banner .box {
+    padding: 70px 60px 190px 60px;
+    margin: 0 auto;
+    max-width: 1110px;
+}
+#banner .content h1 {
+    font-size: 32px;
+    font-family: Gotham-Ultra;
+    color: white;
+    margin-top: 0.5em;
+    font-weight: 700;
+    text-align: center;
+}
+#banner .content .logo {
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+}
+/* End Banner */
+
+/* main */
+#main .container .row{
+    margin-top: 80px;
+}
+#main .box{
+    max-width: 1110px;
+    position: relative;
+    padding: 30px 60px 80px 60px;
+    background-color: #fff;
+    margin-top: -64px;
+    margin-bottom: 64px;
+}
+#main .box h2 {
+    font-family: Gotham-Ultra;
+    color: #bd945f;
+    font-size: 26px;
+    margin-bottom:20px ;
+}
+#main .content input{
+    height: 57px;
+    width: 100%;
+    border: 2px solid #bd945f;
+    margin-bottom:20px ;
+    font-size: 14px;
+    font-family: Gotham-Medium;
+    padding: 16px 12px 16px 24px;
+}
+
+#main .content button {
+    color: #fff;
+    background-color: #bd945f;
+    font-family: Gotham-Medium;
+    border: none;
+    padding: 10px;
+    width: 20%;
+    height: 56px;
+}
+
+/* end main */
+
+/* footer */
+#footer{
+    background-color: #363636;
+    color: #fff;
+    padding: 70px 0px 50px;
+}
+#footer h5{
+    position: relative;
+    font-size: 18px;
+    font-family: Gotham-Medium;
+    padding: 5px 0px;
+    margin-bottom: 16px;
+}
+#footer h5::before{
+    position: absolute;
+    content: '';
+    top: 100%;
+    left: 0;
+    width: 60px;
+    height: 1px;
+    border: 2px solid #fff;
+}
+#footer h4{
+    font-size: 24px;
+    font-family: Gotham-Medium;
+    padding: 5px 0px;
+    margin-bottom: 24px;
+}
+#footer ul{
+    color: #fff;
+    padding: 0;
+}
+#footer li{
+    padding-bottom: 10px;
+}
+#footer li a{
+    color: #fff;
+    font-size: 16px;
+    font-family: Gotham-Medium;
+}

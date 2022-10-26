@@ -19,54 +19,7 @@
     font-size: 16px;
     text-transform: uppercase;
 }
-/* #banner {
-    position: relative;
-    background: url(../img/Trangchu/Banner.png) center / cover no-repeat;
-}
 
-#banner .content {
-    position: relative;
-    margin-left: 200px;
-
-}
-
-#banner .box {
-    padding: 8em 4em 18em 4em;
-    margin: 0 auto;
-    max-width: 1110px;
-
-}
-
-#banner h1 span {
-    color: #bd945f;
-}
-
-#banner h1 {
-    font-size: 36px;
-    font-family: Gotham-Ultra;
-    color: #2c2e53;
-    margin-bottom: 0.5em;
-    font-weight: 700;
-
-}
-
-#banner p {
-    max-width: 60%;
-    text-align: justify;
-    font-size: 18px;
-    margin-bottom: 2em;
-    font-weight: 500;
-    font-family: Gotham-Medium;
-}
-
-#banner a {
-    padding: 18px 28px;
-    display: inline-block;
-    background-color: #bd945f;
-    color: #fff;
-    font-size: 18px;
-    font-family: Gotham-Medium;
-} */
 .banner {
     position: relative;
     background: url(../img/Trangchu/Banner.png) no-repeat;

@@ -43,6 +43,7 @@ body{
 #banner {
     position: relative;
     background: url(../img/Doitac/banner.png) center / cover no-repeat;
+    margin-top: 120px;
 }
 #banner .content {
     position: relative;

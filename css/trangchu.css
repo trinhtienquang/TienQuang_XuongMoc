@@ -2,7 +2,9 @@
     max-width: 1110px;
     margin: 0 auto;
 }
-
+#menu{
+    background-color: white;
+}
 #menu .sub-nav .a::before {
     position: absolute;
     content: '';
@@ -35,9 +37,8 @@
 .banner {
     position: relative;
     background: url(../img/Trangchu/Banner.png) no-repeat;
-    background-size: cover;
     font-size: 18px;
-    /* margin-top: 110px; */
+    margin-top: 120px;
 }
 .banner .box {
     padding: 8em 4em 18em 4em;

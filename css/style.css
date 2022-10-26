@@ -20,7 +20,9 @@ html, body {
     margin: 0;
     padding: 0;
   }
-
+  .container{
+    max-width: 1110px;
+  }
   /* img{
     width: 100%;
   } */
@@ -80,6 +82,18 @@ html, body {
 }
 #menu .sub-nav a:hover::before {
     width: 60px;
+}
+@media (max-width: 991px){
+  #menu .sub-nav a::before {
+    position: absolute;
+    content: '';
+    width: 0px;
+    height: 2px;
+    top: 90%;
+    left: 0;
+    border-bottom: 0.3rem solid #bd945f;
+    transition: all 0.3s ease;
+}
 }
 @media (max-width: 767px){
   .slick-next {

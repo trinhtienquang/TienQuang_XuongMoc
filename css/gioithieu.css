@@ -7,7 +7,7 @@ body{
 }
 
 .menu-nav {
-    max-width: 1280px;
+    max-width: 1110px;
     margin: 0 auto;
 }
 
@@ -21,8 +21,20 @@ body{
     border-bottom: 0.3rem solid #bd945f;
     transition: 0.3s ease;
 }
+@media (max-width: 991px){
+    #menu .sub-nav .a::before {
+        position: absolute;
+        content: '';
+        width: 60px;
+        height: 2px;
+        top: 90%;
+        left: 0;
+        border-bottom: 0.3rem solid #bd945f;
+        transition: 0.3s ease;
+  }
+  }
 #menu .sub-nav li{
-    margin-right: 54px;
+    /* margin-right: 54px; */
     font-family: Gotham-Medium;
     font-size: 16px;
     text-transform: uppercase;
@@ -105,7 +117,7 @@ body{
     background-color: white;
     margin-bottom: 20px;
     border: 2.5px solid #bd945f;
-    height: 160px;
+    height: 180px;
 }
 #main .why-choose .why-choose-box-1 .img {
     display: flex;

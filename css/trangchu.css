@@ -43,9 +43,7 @@
 .banner .box {
     padding: 8em 4em 18em 4em;
 }
-.banner .content {
-    
-}
+
 .banner h1 {
     font-size: 2.0em;
     color: #2c2e53;
@@ -279,7 +277,7 @@
 
 #about-us .why-choose .why-choose-box-1 {
     background-color: white;
-    margin-bottom: 20px;
+    margin-bottom: 24px;
     height: 125px;
 }
 

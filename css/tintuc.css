@@ -54,8 +54,8 @@ body{
     font-size: 32px;
     font-family: Gotham-Ultra;
     position: relative;
-    padding-top: 25px;
-    margin-bottom: 20px;
+    /* padding-top: 25px; */
+    margin: 10px 0px 20px 0px;
     text-align: center;
 }
 

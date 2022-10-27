@@ -37,6 +37,7 @@
 .banner {
     position: relative;
     background: url(../img/Trangchu/Banner.png) no-repeat;
+    background-size: cover;
     font-size: 18px;
     margin-top: 120px;
 }

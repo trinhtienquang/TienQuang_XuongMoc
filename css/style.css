@@ -28,6 +28,10 @@ html, body {
     left: 0;
     right: 0;
 }
+header.sticky .logo{
+  height: 50px;
+  width: 50px;
+}
 #banner{
   margin-top: 120px;
 }
